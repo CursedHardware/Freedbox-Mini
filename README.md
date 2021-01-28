@@ -16,7 +16,7 @@ The onboard SPI Flash is a [Winbond 25Q128FVSG](https://www.winbond.com/resource
 
 The factory version of U-boot is an unknown version of [pepe2k/u-boot_mod](https://github.com/pepe2k/u-boot_mod) with signature and/or offset different from the public code. Thus the U-boot can flash but cannot boot an official OpenWRT firmware.
 
-Unluckily I destoried the factory OS so I don't have any dump in hand. It is a OpenWRT with most luci functionalities removed and have Shadowsocks program and server configuration built in. If you want to have a peek what is inside, see [Root 你的 FreedBox](https://blog.swineson.me/root-your-freedbox/).
+Unluckily I destoried the factory OS so I don't have any dump in hand. It is a OpenWRT with most luci functionalities removed and have Shadowsocks program and server configuration built in. If you want to have a peek what is inside, see [Root 你的 FreedBox](https://blog.swineson.me/zh/root-your-freedbox/).
 
 [freedbox_uboot_dump.zip](dumps/freedbox_uboot_dump.zip) is a dump of the SPI flash with the factory U-boot and a non-bootable OpenWRT.
 
@@ -32,4 +32,4 @@ To flash the official OpenWrt release, **do not upgrade from factory OS or U-boo
 Note:
 
 - U-boot file is downloaded from [projects.dymacz.pl](http://projects.dymacz.pl/?dir=u-boot_mod).
-  <br>See [pepe2k/u-boot_mod](https://github.com/pepe2k/u-boot_mod) for details.
+  <br>see [pepe2k/u-boot_mod](https://github.com/pepe2k/u-boot_mod) for details.
